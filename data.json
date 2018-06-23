@@ -1,0 +1,24 @@
+{
+"basics":{
+  "name":"sumanjali",
+  "email":"anjalisumacse@gmail.com",
+  "mobil":"91+8179788739"
+},
+"education":[
+  {
+  "degree":"b.tech",
+  "intitute":"pscmr",
+  "data":["2014-18","70%"]
+},
+{
+"degree":"inter",
+"intitute":"kbn",
+"data":["2012-14","75%"]
+},
+{
+"degree":"ssc",
+"intitute":"sdmyrr",
+"data":["2009-13","78%"]
+}
+]
+}

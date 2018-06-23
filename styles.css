@@ -4,7 +4,7 @@
   justify-content:center;
 }
 .child1{
-  width:40%;
+  max-width:40%;
   border-radius:16px;
   box-shadow: 4px 4px 4px #000;
   border:2px solid #000;
@@ -12,7 +12,7 @@
   margin:2%;
 }
 .child2{
-  width:70%;
+  max-width:70%;
   border-radius:16px;
   box-shadow: 4px 4px 4px #000;
   border:2px solid #000;
@@ -25,6 +25,85 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-}h1{
-  text-align: center;
 }
+  @media only screen and (min-width:320px) and (max-width:480px)
+  {
+    a{
+      font-size:25px;
+    }
+    .main{
+      display: flex;
+      flex-direction:column;
+      justify-content:center;
+    }
+    .child1{
+      max-width: 100%;
+      border-radius:16px;
+      box-shadow: 4px 4px 4px #000;
+      border:2px solid #000;
+      padding:2%;
+      margin:2%;
+    }
+    .child2{
+      max-width: 100%;
+      border-radius:16px;
+      box-shadow: 4px 4px 4px #000;
+      border:2px solid #000;
+      padding:2%;
+      margin:2%;
+    }
+    h1{
+      text-align: center;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  a{
+    font-size: 30px;
+  }
+  .main{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  .child1{
+    max-width: 100%;
+    border-radius:16px;
+    box-shadow: 4px 4px 4px #000;
+    border:2px solid #000;
+    padding:2%;
+    margin:2%;
+  }
+  .child2{
+    max-width: 100%;
+    border-radius:16px;
+    box-shadow: 4px 4px 4px #000;
+    border:2px solid #000;
+    padding:2%;
+    margin:2%;
+  }
+}
+ @media only screen and (min-width:769px) and (max-width:1024px){
+   a{
+     font-size: 40px;
+   }
+  .main{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  .child1{
+    max-width: 100%;
+    border-radius:16px;
+    box-shadow: 4px 4px 4px #000;
+    border:2px solid #000;
+    padding:2%;
+    margin:2%;
+  }
+  .child2{
+    max-width: 100%;
+    border-radius:16px;
+    box-shadow: 4px 4px 4px #000;
+    border:2px solid #000;
+    padding:2%;
+    margin:2%;
+  }}
